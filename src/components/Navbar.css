@@ -1,0 +1,31 @@
+.Navbar {
+    backdrop-filter: blur(50px);
+    background-color: rgba(110, 110, 110, 0.61);
+    color: rgb(197, 192, 192);
+    position: sticky;
+    top: 0;
+}
+
+.navhover:hover {
+    color: rgba(44, 44, 44, 0.651);
+}
+
+.navhover {
+    font-size: larger;
+    color: rgba(255, 255, 255, 0.432);
+    font-weight: 700;
+}
+
+.buttont {
+    background-color: rgba(75, 74, 74, 0.753);
+    color: rgba(163, 163, 163, 0.767);
+    border: none;
+    font-weight: 600;
+    margin: 1em;
+}
+
+
+.buttont:hover {
+    background-color: rgba(255, 255, 255, 0.432);
+    color: rgba(77, 77, 77, 0.699);
+}

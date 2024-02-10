@@ -1,0 +1,132 @@
+.body-index {
+    background: radial-gradient(rgb(99, 99, 98), rgba(106, 111, 110, 0.399), rgba(87, 87, 87, 0.212));
+    padding: 0.5em;
+    border-radius: 1em;
+    margin: 1em;
+    height: max-content;
+    text-align: center;
+}
+
+
+
+.body-skills {
+    /* background: linear-gradient(to top left ,rgba(82, 82, 82, 0.225), rgba(143, 143, 143, 0.1)); */
+    padding: 0.5em;
+    border-radius: 1em;
+    margin: 0.5em;
+    height: max-content;
+}
+
+.body-contact {
+    background-color:rgb(19, 19, 19);
+    padding: 1em;
+    margin: 0;
+    height: max-content;
+    border-radius: 2em 2em 0 0;
+}
+.body-contact-p {
+    text-align: center;
+}
+
+.body-contact a {
+    text-decoration: none;
+    color: rgb(156, 156, 156);
+}
+
+.p-contact {
+    color: rgb(156, 156, 156);
+}
+
+.avator {
+    height: 13em;
+    border-radius: 50%;
+}
+
+.heading {
+    font-weight: 800;
+}
+.name {
+    font-weight: 600;
+    
+}
+.abt-btn {
+    display: inline-flex;
+    gap: 5px;
+}
+
+.quick-links {
+    display: inline-flex;
+    gap: 1.5em;
+}
+
+.react-icons:hover {
+    color: rgb(212, 212, 212);
+}
+
+.react-icons {
+    height: 1.7em;
+    width: 1.7em;
+    color: rgb(156, 156, 156);
+    cursor: pointer;
+}
+
+.gap {
+    margin: 10px;
+    padding: 10px;
+}
+
+.text {
+    color: rgb(156, 156, 156);
+}
+
+.soft-skills {
+    border-radius: 1em;
+    background-color: rgba(110, 110, 110, 0.275);
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.prog-skills {
+    border-radius: 1em;
+    background-color: rgba(110, 110, 110, 0.275);
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.projects {
+    border-radius: 1em;
+    background-color: rgba(110, 110, 110, 0.275);
+    padding: 1em;
+    margin: 0.5em;
+}
+
+.projects li {
+    background-color: rgb(65, 65, 65);
+    margin: 0.5em;
+    border-radius: 0.5em;
+    cursor: pointer;
+    display: flex;
+}
+
+.projects ol {
+    list-style-type: none;
+    
+}
+
+.projects li:hover {
+    background-color: rgb(128, 128, 128);
+}
+
+.projtem {
+    font-size: medium;
+    padding: 0.5em;
+    transition: 300ms;
+    animation: ease-in;
+}
+
+.projmage {
+    height: 5em;
+    width: 8em;
+    border-radius: 0.5em;
+    margin: 0.5em;
+}
