@@ -37,6 +37,14 @@
     color: rgb(156, 156, 156);
 }
 
+.p-contact a:hover {
+    color: rgb(197, 197, 197);
+    font-weight: 600;
+    background-color: rgba(0, 0, 0, 0.212);
+    padding: 0.4em;
+    border-radius: 0.4em;
+}
+
 .avator {
     height: 13em;
     border-radius: 50%;

@@ -1,5 +1,6 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./Style.css";
+import { HiDocumentText } from "react-icons/hi2";
 
 function Skills() {
   return (
@@ -121,9 +122,13 @@ function Skills() {
               </div>
             </Col>
           </Row>
-          <div style={{ textAlign: "center" }}>
-            <Button className="buttont">Resume</Button>
-          </div>
+          <a href="#resume">
+            <div style={{ textAlign: "center" }}>
+              <Button className="buttont">
+                Resume <HiDocumentText />{" "}
+              </Button>
+            </div>
+          </a>
         </Container>
       </div>
     </>
