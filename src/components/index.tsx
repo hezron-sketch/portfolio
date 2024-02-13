@@ -16,10 +16,7 @@ function Index() {
               <h1 style={{ paddingTop: "10%" }} className="heading" id="Home">
                 Software Developer
               </h1>
-              <img
-                src="https://github.com/hezron-sketch/portfolio/blob/main/public/avator.png"
-                className="avator"
-              />
+              <img src="public/avator.png" className="avator" />
               <hr></hr>
               <p>
                 <div style={{ fontSize: "large" }}>
