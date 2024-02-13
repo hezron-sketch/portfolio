@@ -23,12 +23,12 @@ function Contact() {
               <IconContext.Provider value={{ className: "react-icons" }}>
                 <div className="p-contact">
                   <a href="tel:+254707069007">
-                    <BsPhone /> +254707069007
+                    <BsPhone /> Make a call
                   </a>
                   <br />
                   <br />
                   <a href="mailto:hpaulhezne@gmail.com">
-                    <BsMailbox2 /> hpaulhezne@gmail.com
+                    <BsMailbox2 /> Send an email
                   </a>
                   <br />
                   <br />

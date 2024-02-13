@@ -1,6 +1,6 @@
 import { Button, Col, Container, Row } from "react-bootstrap";
 import "./Style.css";
-import { HiDocumentText } from "react-icons/hi2";
+import { HiArrowRight, HiArrowUpRight, HiDocumentText } from "react-icons/hi2";
 
 function Skills() {
   return (
@@ -67,33 +67,37 @@ function Skills() {
                 <hr />
                 <ol>
                   <li>
-                    <img src="/todo.jpg" className="projmage" />
+                    <img src="public/todo.jpg" className="projmage" />
                     <div className="projtem">Todo Flutter App</div>
                   </li>
                   <li>
-                    <img src="/datavisualization.jpg" className="projmage" />
+                    <img
+                      src="public/datavisualization.jpg"
+                      className="projmage"
+                    />
                     <div className="projtem">Data Visualization</div>
                   </li>
                   <li>
-                    <img src="/portfolio.jpg" className="projmage" />
+                    <img src="public/portfolio.jpg" className="projmage" />
                     <div className="projtem">This Portfolio</div>
                   </li>
                   <li>
-                    <img src="/music.jpg" className="projmage" />
+                    <img src="public/music.jpg" className="projmage" />
                     <div className="projtem">Flutter Music Player</div>
                   </li>
                   <li>
-                    <img src="/shop.jpg" className="projmage" />
+                    <img src="public/shop.jpg" className="projmage" />
                     <div className="projtem">Wines WebApp</div>
                   </li>
                 </ol>
                 <Button
-                  className="buttont a"
+                  className="viewmore"
                   style={{
                     backgroundColor: "rgba(155, 155, 155, 0.432)",
                   }}
                 >
                   View more
+                  <HiArrowUpRight size={20} />
                 </Button>
               </div>
             </Col>
@@ -116,13 +120,16 @@ function Skills() {
                   <li>Problem Solving</li>
                   <li>Integrity</li>
                 </ul>
+                <Button className="viewmore">
+                  View more in my resume <HiArrowRight size={30} />
+                </Button>
               </div>
             </Col>
           </Row>
           <a href="#resume">
             <div style={{ textAlign: "center" }}>
-              <Button className="buttont">
-                Resume <HiDocumentText />{" "}
+              <Button className="viewmore">
+                Resume <HiDocumentText size={20} />{" "}
               </Button>
             </div>
           </a>

@@ -16,11 +16,11 @@ function Index() {
               <h1 style={{ paddingTop: "10%" }} className="heading" id="Home">
                 Software Developer
               </h1>
-              <img src="/avator.png" className="avator" />
+              <img src="public/avator.png" className="avator" />
               <hr></hr>
               <p>
                 <div style={{ fontSize: "large" }}>
-                  Hello, I am<h2 className="name">Hezron Onyango</h2>a tech
+                  Hello, I am<h2 className="name">Localhost</h2>a tech
                   enthusiast. I code to explore the computer system.
                 </div>
               </p>
@@ -43,8 +43,8 @@ function Index() {
               </Container>
 
               <div className="abt-btn">
-                <Button className="buttont">Resume</Button>
-                <Button className="buttont">Hire Me</Button>
+                <Button className="viewmore">Resume</Button>
+                <Button className="viewmore">Hire Me</Button>
               </div>
             </Col>
           </Row>

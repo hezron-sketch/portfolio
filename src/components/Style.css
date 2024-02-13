@@ -45,6 +45,22 @@
     border-radius: 0.4em;
 }
 
+.viewmore {
+    border-radius: 0.8em;
+    font-size: large;
+    font-weight: bold;
+    padding: 0.5em;
+    background: linear-gradient(to top left, rgba(179, 179, 179, 0.829), rgba(122, 122, 122, 0.767));
+    border-color: grey;
+    color: rgba(29, 29, 29, 0.521);
+}
+
+.viewmore:hover {
+    background: linear-gradient(to top left, rgba(88, 88, 88, 0.726), rgba(139, 139, 139, 0.329));
+    color: rgba(218, 218, 218, 0.521);
+    border-color: rgba(189, 189, 189, 0.555);
+}
+
 .avator {
     height: 13em;
     border-radius: 50%;

@@ -30,9 +30,6 @@ function NavBar() {
               Contact
             </Nav.Link>
           </Nav>
-          <a href="#Quick">
-            <Button className="buttont">Hire Me</Button>
-          </a>
         </Navbar.Collapse>
       </Container>
     </Navbar>
