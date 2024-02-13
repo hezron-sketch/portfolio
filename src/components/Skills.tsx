@@ -67,26 +67,26 @@ function Skills() {
                 <hr />
                 <ol>
                   <li>
-                    <img src="public/todo.jpg" className="projmage" />
+                    <img src="./public/todo.jpg" className="projmage" />
                     <div className="projtem">Todo Flutter App</div>
                   </li>
                   <li>
                     <img
-                      src="public/datavisualization.jpg"
+                      src="./public/datavisualization.jpg"
                       className="projmage"
                     />
                     <div className="projtem">Data Visualization</div>
                   </li>
                   <li>
-                    <img src="public/portfolio.jpg" className="projmage" />
+                    <img src="./public/portfolio.jpg" className="projmage" />
                     <div className="projtem">This Portfolio</div>
                   </li>
                   <li>
-                    <img src="public/music.jpg" className="projmage" />
+                    <img src="./public/music.jpg" className="projmage" />
                     <div className="projtem">Flutter Music Player</div>
                   </li>
                   <li>
-                    <img src="public/shop.jpg" className="projmage" />
+                    <img src="./public/shop.jpg" className="projmage" />
                     <div className="projtem">Wines WebApp</div>
                   </li>
                 </ol>
