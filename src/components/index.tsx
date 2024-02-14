@@ -16,7 +16,11 @@ function Index() {
               <h1 style={{ paddingTop: "10%" }} className="heading" id="Home">
                 Software Developer
               </h1>
-              <img src="public/avator.png" className="avator" />
+              <img
+                src="https://img.freepik.com/free-photo/fashion-boy-with-yellow-jacket-blue-pants_71767-96.jpg?w=826&t=st=1707919766~exp=1707920366~hmac=807daac4e0db6bfae506e88afee65c1a70142d396ec78b6f147b07aa017b06a9"
+                alt="new"
+                className="avator"
+              />
               <hr></hr>
               <p>
                 <div style={{ fontSize: "large" }}>
