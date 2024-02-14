@@ -138,7 +138,7 @@ function Skills() {
               </div>
             </Col>
           </Row>
-          <a href="#resume">
+          <a href="public/documents/Hezron.pdf">
             <div style={{ textAlign: "center" }}>
               <Button className="viewmore">
                 Resume <HiDocumentText size={20} />{" "}

@@ -38,7 +38,7 @@ function Contact() {
             <Col xs={12} md={4}>
               <div className="p-contact">
                 <IconContext.Provider value={{ className: "react-icons" }}>
-                  <a href="#">
+                  <a href="https://github.com/hezron-sketch/">
                     <BsGithub /> Github
                   </a>
                   <br />
@@ -48,7 +48,7 @@ function Contact() {
                   </a>
                   <br />
                   <br />
-                  <a href="#">
+                  <a href="https://instagram.com/_humbly_hezron/">
                     <BsInstagram /> Instagram
                   </a>
                   <br />
