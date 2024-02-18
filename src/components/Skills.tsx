@@ -68,38 +68,43 @@ function Skills() {
 
                 <li>
                   <img
-                    src="https://img.freepik.com/free-vector/realistic-ui-ux-background_23-2149046824.jpg?w=1380&t=st=1707919938~exp=1707920538~hmac=d1db1f3c0cb86670cd63ea78883b23c48eebf3fad451c90889dd0bb288a7d517"
+                    src="https://images.unsplash.com/photo-1662027008658-b615840c7deb?q=80&w=2062&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                     className="projmage"
                   />
-                  <div className="projtem">Todo Flutter App</div>
+                  <div className="projtem">
+                    <a href="">Todo Flutter App</a>
+                  </div>
                 </li>
                 <li>
                   <img
-                    src="https://img.freepik.com/free-vector/futuristic-infographic-elements-concept_23-2148457430.jpg?w=1380&t=st=1707920097~exp=1707920697~hmac=0863bb86ad7f6249653bb87ec55d1d7d80dd0515b44ad086f49cbb1edc5afe4e"
+                    src="https://images.pexels.com/photos/669610/pexels-photo-669610.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     className="projmage"
                   />
-                  <div className="projtem">Data Visualization</div>
+                  <div className="projtem">
+                    <a href="">Data Visualization</a>
+                  </div>
                 </li>
                 <li>
                   <img
-                    src="https://img.freepik.com/free-photo/close-up-briefcase_1098-3090.jpg?w=1380&t=st=1707920183~exp=1707920783~hmac=75d2b666314a47a057c3771bb68ecfdb0868ad9ac5a56d4955f8f8d8242084e8"
+                    src="https://images.pexels.com/photos/2442888/pexels-photo-2442888.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     className="projmage"
                   />
-                  <div className="projtem">This Portfolio</div>
+                  <div className="projtem">
+                    <a href="">This Portfolio</a>
+                  </div>
                 </li>
+
                 <li>
                   <img
-                    src="https://img.freepik.com/free-vector/music-streaming-design_53876-90530.jpg?t=st=1707920534~exp=1707921134~hmac=2ec8a8ac58d202ed3eb3f8425061b24197648faedb03bac7fb87c3a02ab0ab1b"
+                    src="https://images.pexels.com/photos/953864/pexels-photo-953864.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     className="projmage"
                   />
-                  <div className="projtem">Flutter Music Player</div>
-                </li>
-                <li>
-                  <img
-                    src="https://img.freepik.com/free-photo/online-fashion-shopping-with-computer_23-2150400628.jpg?w=1380&t=st=1707920375~exp=1707920975~hmac=b73294a65f1713a69c542fc3d05215cca736987a62bb73f6b9eb55ded703f6d1"
-                    className="projmage"
-                  />
-                  <div className="projtem">Wines WebApp</div>
+                  <div className="projtem">
+                    <a href="">Wines WebApp</a>
+                    <p className="exp">
+                      View on github <HiArrowUpRight />
+                    </p>
+                  </div>
                 </li>
 
                 <Button

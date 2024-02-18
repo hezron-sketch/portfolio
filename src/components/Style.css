@@ -127,18 +127,13 @@
 .projects li {
     background-color: rgb(65, 65, 65);
     margin: 0.5em;
-    border-radius: 0.5em;
-    cursor: pointer;
+    border-radius: 1em;
     display: flex;
 }
 
-.projects ol {
-    list-style-type: none;
-    
-}
 
 .projects li:hover {
-    background-color: rgb(128, 128, 128);
+    background-color: rgba(58, 255, 255, 0.11);
 }
 
 .projtem {
@@ -146,11 +141,25 @@
     padding: 0.5em;
     transition: 300ms;
     animation: ease-in;
+    font-weight: 600;
+}
+
+.projtem a {
+    text-decoration: none;
+    color: white;
+}
+
+.projtem a:hover {
+    color: rgb(0, 204, 255);
 }
 
 .projmage {
     height: 7em;
     width: 10em;
-    border-radius: 0.5em;
+    border-radius: 0.7em;
     margin: 0.5em;
+}
+
+.exp {
+    font-size: small;
 }
