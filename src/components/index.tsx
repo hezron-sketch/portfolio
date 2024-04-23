@@ -2,21 +2,13 @@ import "./Style.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import { Button } from "react-bootstrap";
 import { BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
 
-const button = document.getElementById('myButton') as HTMLButtonElement;
 
-button.onclick = function() {
-
-  const resumeUrl = '/public/documents/Hezron.pdf';
-
-  window.location.href = resumeUrl;
-};
-
-
-function Index() {
+const Index() {
   return (
     <>
       <div className="body-index">
@@ -57,8 +49,8 @@ function Index() {
               </Container>
 
               <div className="abt-btn">
-                <button className="viewmore" id="myButton">Download Resume</button>
-                <button className="viewmore">Hire Me</button>
+                <Button className="viewmore">Download Resume</Button>
+                <Button className="viewmore">Hire Me</Button>
               </div>
             </Col>
           </Row>
