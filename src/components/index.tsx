@@ -2,7 +2,6 @@ import "./Style.css";
 import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import { Button } from "react-bootstrap";
 import { BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
