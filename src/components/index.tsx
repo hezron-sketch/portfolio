@@ -6,6 +6,17 @@ import { Button } from "react-bootstrap";
 import { BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
+
+const button = document.getElementById('myButton') as HTMLButtonElement;
+
+button.onclick = function() {
+
+  const resumeUrl = '/public/documents/Hezron.pdf';
+
+  window.location.href = resumeUrl;
+};
+
+
 function Index() {
   return (
     <>
@@ -47,7 +58,7 @@ function Index() {
               </Container>
 
               <div className="abt-btn">
-                <Button className="viewmore" href="public/documents/Hezron.pdf">Download Resume</Button>
+                <Button className="viewmore" id="myButton">Download Resume</Button>
                 <Button className="viewmore">Hire Me</Button>
               </div>
             </Col>
