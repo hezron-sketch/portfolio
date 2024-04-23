@@ -47,7 +47,7 @@ function Index() {
               </Container>
 
               <div className="abt-btn">
-                <a href="public/documents/Hezron.pdf">Resume</a>
+                <Button className="viewmore" href="public/documents/Hezron.pdf">Download Resume</Button>
                 <Button className="viewmore">Hire Me</Button>
               </div>
             </Col>
