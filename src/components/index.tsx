@@ -8,7 +8,7 @@ import { IconContext } from "react-icons";
 
 
 
-const Index() {
+function Index() {
   return (
     <>
       <div className="body-index">
