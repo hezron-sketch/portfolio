@@ -58,8 +58,8 @@ function Index() {
               </Container>
 
               <div className="abt-btn">
-                <Button className="viewmore" id="myButton">Download Resume</Button>
-                <Button className="viewmore">Hire Me</Button>
+                <button className="viewmore" id="myButton">Download Resume</button>
+                <button className="viewmore">Hire Me</button>
               </div>
             </Col>
           </Row>
