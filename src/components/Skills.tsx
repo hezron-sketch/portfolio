@@ -100,7 +100,7 @@ function Skills() {
                     className="projmage"
                   />
                   <div className="projtem">
-                    <a href="">Wines WebApp</a>
+                    <a href="https://localhostwines.co.ke/">Wines WebApp</a>
                     <p className="exp">
                       View on github <HiArrowUpRight />
                     </p>
