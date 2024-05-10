@@ -137,7 +137,10 @@ function Skills() {
                   <li>Problem Solving</li>
                   <li>Integrity</li>
                 </ul>
-                <Button className="viewmore" href="\documents\Hezron.pdf">
+                <Button
+                  className="viewmore"
+                  href="/public/documents/Hezron.pdf"
+                >
                   View more in my resume <HiArrowRight size={30} />
                 </Button>
               </div>

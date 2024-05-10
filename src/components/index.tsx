@@ -30,8 +30,13 @@ function Index() {
               </p>
               <div className="quick-links">
                 <IconContext.Provider value={{ className: "react-icons" }}>
-                  <BsGithub />
-                  <BsInstagram />
+                  <a href="https://github.com/hezron-sketch">
+                    <BsGithub />
+                  </a>
+                  <a href="https://www.instagram.com/mtu_half/">
+                    <BsInstagram />
+                  </a>
+
                   <BsTwitter />
                 </IconContext.Provider>
               </div>
@@ -47,8 +52,9 @@ function Index() {
               </Container>
 
               <div className="abt-btn">
-                <Button className="viewmore">Download Resume</Button>
-                <Button className="viewmore">Hire Me</Button>
+                <a href="src\components\resume.html">
+                  <Button className="viewmore">Check Resume</Button>
+                </a>
               </div>
             </Col>
           </Row>
