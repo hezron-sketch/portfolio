@@ -6,8 +6,6 @@ import { Button } from "react-bootstrap";
 import { BsGithub, BsInstagram, BsTwitter } from "react-icons/bs";
 import { IconContext } from "react-icons";
 
-
-
 function Index() {
   return (
     <>
@@ -26,7 +24,7 @@ function Index() {
               <hr></hr>
               <p>
                 <div style={{ fontSize: "large" }}>
-                  Hello, I am<h2 className="name">Localhost</h2>a tech
+                  Hello, I am<h2 className="name">mtu-HALF</h2>a tech
                   enthusiast. I code to explore the computer system.
                 </div>
               </p>
