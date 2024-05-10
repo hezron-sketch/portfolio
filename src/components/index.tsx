@@ -17,7 +17,7 @@ function Index() {
                 Software Developer
               </h1>
               <img
-                src="https://img.freepik.com/free-photo/user-profile-icon-front-side-with-white-background_187299-40010.jpg?w=826&t=st=1708247270~exp=1708247870~hmac=c5f510921cc3ef1db7a3980279ed489f5f663f6546c6f17e91ad0e4a836b27f4"
+                src="public\avatar_M6_C10_A5_P18.png"
                 alt="new"
                 className="avator"
               />
